@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+
 *,*::after,*::before
 {
 padding: 0;
@@ -233,8 +237,53 @@ position: relative;
 
 .cafeteria_12{
     margin-left: 90px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold ;
+    margin-top: 100px;
+    
 }
 
+
+
+
+
+.facebook_container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el texto y el icono */
+}
+.facebook_tittle{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -9px;
+}
+.icon_facebook{
+   width: 30px;
+   top: 10px;
+}
+.container_footer{
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.instagram_container{
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el texto y el icono */
+}
+
+.instagram_tittle{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon_instangram{
+    width: 30px;
+}
 footer{
     background-color: rgb(255, 187, 220);
     height: 400px;
