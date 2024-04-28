@@ -36,34 +36,38 @@ margin-bottom: 30%;
     font-size:127px;
     font-weight:bold;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 4px 8px 8px black;
 
 
-}
-
-.container{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 30px;
 }
 .section_1{
     background-color: rgb(31, 43, 33);
-    height: 600px;
+    height: 550px;
 
 }
-
+.container{
+    display: flex;
+   
+}
+.text{
+    margin-left: 40px;
+    margin-top: 140px;
+    
+}
 .title_section_1{
 
     color: rgb(255, 187, 220);
     font-size: 53.6667px;
     width: 450px;
+ 
 }
 
 .parr_section_1{
     color: rgb(255, 255, 255);
     list-style: 39px;
     font-size: 28.3333px;
-    display: flex;
+    margin-top: 100px;
+    max-width:  950px;
    
 }
 
